@@ -16,4 +16,5 @@ int main (void)
         printf("%c", ch);
         ch = fgetc(ptr);
     }
+    fclose(ptr);
 }
